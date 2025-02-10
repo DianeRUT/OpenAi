@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0b3d5f;
+    color: white;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #062c43;
+    color: white;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: #082c44;
+  }
+  
+  .message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .message-container.user {
+    align-items: flex-end;
+  }
+  
+  .message-bubble {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 80%;
+  }
+  
+  .message-bubble.user {
+    background-color: #0078d7;
+    color: white;
+    align-self: flex-end;
+  }
+  
+  .message-bubble.assistant {
+    background-color: #1e3a5f;
+    color: white;
+    align-self: flex-start;
+  }
+  
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .footer {
+    padding: 0.5rem;
+    background-color: #062c43;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-input {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .send-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .image-upload {
+    color: white;
+  }
+  
